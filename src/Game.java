@@ -9,9 +9,10 @@ public class Game {
         int guess=0;
         System.out.println("Guess my secret number:");
         guess=input.nextInt();
-        while(guess!=){
+        while(guess!=num){
             System.out.println("Guess again:");
             guess=input.nextInt();
         }
+        System.out.println("You got it right! My secret number is "+num);
     }
 }
